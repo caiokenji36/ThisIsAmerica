@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_column="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:text="0"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="97dp"
+            android:layout_height="30dp"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="0"
+            android:text="PONTUACAO:"
+            android:textColor="#000000" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="6">
+
+        <Button
+            android:id="@+id/alterarNomeBotao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:text="@string/alterar_bt" />
+
+        <Button
+            android:id="@+id/fotoButton"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_row="0"
+            android:text="@string/foto_bt" />
+
+        <TextView
+            android:id="@+id/lbNome"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="3"
+
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="110dp"
+            android:layout_row="0"
+            android:text="@string/start_bt" />
+
+        <ImageView
+            android:id="@+id/imageFoto"
+            android:layout_width="150dp"
+            android:layout_height="151dp"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:layout_row="0"
+            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="6">
+
+        <TextView
+            android:id="@+id/perguntaLabel"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="PERGUNTA:"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/perguntaID"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="1"
+            android:text="CAPITAIS"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/gehtge"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="2"
+            android:text="RESPOSTA:"
+            android:textColor="#000000" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/editResposta"
+            android:layout_width="257dp"
+            android:layout_column="0"
+            android:layout_marginLeft="5dp"
+            android:layout_row="3" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/botaoOk"
+            android:layout_width="wrap_content"
+            android:layout_column="2"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_row="3"
+            android:text="OK" />
+    </GridLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="348dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="18dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="18dp"
+        tools:context=".MapsActivity" />
+
+</LinearLayout>
+
+

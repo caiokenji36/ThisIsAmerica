@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">This Is America</string>
+    <string name="title_activity_maps">This Is America</string>
+    <string name="alterar_bt">Alterar nome</string>
+    <string name="foto_bt">Tirar foto</string>
+    <string name="start_bt">Iniciar</string>
+    <string name="message_gps">To see the coordinates you need the GPS</string>
+    <string name="not_found">Data unavailable for your choice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Bem_vindo">Bem vindo,</string>
+    <string name="erro">Você errou em algo!</string>
+    <string name="capital_brasil">Capital do Brasil</string>
+    <string name="Brasilia">Brasilia</string>
+    <string name="capital_argentina">Capital da Argentina</string>
+    <string name="Buenos_aires">Buenos Aires</string>
+    <string name="capital_chile">Capital do Chile</string>
+    <string name="Santiago">Santiago</string>
+    <string name="capital_paraguai">Capital do Paraguai</string>
+    <string name="assuncao">Assunção</string>
+    <string name="pontos">Pegue seus pontos</string>
+    <string name="Montevidéu">Montevidéu</string>
+    <string name="La_paz">La Paz</string>
+    <string name="Lima">Lima</string>
+    <string name="Quito">Quito</string>
+    <string name="Paramaribo">Paramaribo</string>
+    <string name="Georgetown">Georgetown</string>
+
+</resources>
